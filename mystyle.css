@@ -1,0 +1,89 @@
+.btn:hover {
+    background-color: rgb(197, 197, 197);
+  }
+
+  .bouton-image:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: text-top;
+    background-color: transparent;
+    background-position : center center;
+    background-repeat:no-repeat;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.profile-header-container{
+  margin: 0 ;
+  padding-left: 100px;
+}
+
+.profile-header-img {
+  padding: 5px;
+}
+
+.profile-header-img > img.img-circle {
+  width: 120px;
+  height: 120px;
+  border: 2px solid #51D2B7;
+}
+
+.profile-header {
+  margin-top: 43px;
+}
+
+/**
+* Ranking component
+*/
+.rank-label-container {
+  margin-top: -19px;
+  /* z-index: 1000; */
+  text-align: center;
+}
+
+.label.label-default.rank-label {
+  background-color: rgba(168, 177, 177, 0.685);
+  padding: 5px 10px 5px 10px;
+  border-radius: 27px;
+}
