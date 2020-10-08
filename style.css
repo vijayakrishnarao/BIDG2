@@ -1,0 +1,434 @@
+/* The side navigation menu */
+.threelines {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+	margin: 6px 0;
+}
+
+
+.round {
+    width: 100%;
+    border-radius: 15px;
+    border: 1px #000 solid;
+    padding: 5px 5px 5px 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+
+
+
+		.big-search-box {
+			width: 30%;
+			left: 35%;
+			top: 100px;
+			position: absolute;
+			
+			}
+
+
+	
+	.header{
+	margin-bottom:0;
+	height:10%; 
+	width:100%;
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+ 
+	padding: 55px 50px;
+	margin-top: 80px;
+	}
+	
+
+
+
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+
+  }
+
+
+  .main {
+	max-height: 550px;;
+	background-color: #292c2f;
+	color: white;
+	font-size: 38pt;
+	text-align: center;
+	line-height: 550px;
+}
+footer{
+
+	bottom: 0;
+}
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+ 
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+ 
+.footer-distributed .footer-left{
+	width: 40%;
+}
+ 
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+ 
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+ 
+ 
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+ 
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+ 
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+ 
+.footer-distributed .footer-center{
+	width: 35%;
+}
+ 
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+ 
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+ 
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+ 
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+ 
+.footer-distributed .footer-right{
+	width: 20%;
+}
+ 
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+ 
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+ 
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+ 
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+ 
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+ 
+ 
+@media (max-width: 880px) {
+ 
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	
+	}
+ 
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+ 
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+	.main {
+		line-height: normal;
+		font-size: auto;
+	}
+ 
+}
+
+/*
+* {
+	box-sizing: border-box;
+  }
+   
+  .shopping-cart {
+	width: 750px;
+	height: 423px;
+	margin: 80px auto;
+	background: #FFFFFF;
+	box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+	border-radius: 6px;
+   
+	display: flex;
+	flex-direction: column;
+  }
+  
+.item {
+	padding: 20px 30px;
+	height: 120px;
+	display: flex;
+  }
+   
+  .item:nth-child(3) {
+	border-top:  1px solid #E1E8EE;
+	border-bottom:  1px solid #E1E8EE;
+  }
+  .buttons {
+	position: relative;
+	padding-top: 30px;
+	margin-right: 60px;
+  }
+  .add-to-cart,
+  .like-btn {
+	display: inline-block;
+	Cursor: pointer;
+  }
+  
+   
+  .like-btn {
+	position: absolute;
+	top: 9px;
+	left: 15px;
+	background: url('http://https://www.webmarketingtips.mx/wp-content/uploads/2017/05/like.png.blacklabelagency.com/wp-content/uploads/2016/07/twitter_like_icon.jpg');
+	width: 30px;
+	height: 30px;
+	background-size: 2900%;
+	background-repeat: no-repeat;
+  }
+  .add-to-cart{
+	position: absolute;
+	top: 9px;
+	left: 15px;
+	background: url('https://www.mangoextensions.com/media/catalog/product/cache/1/image/1200x1200/9df78eab33525d08d6e5fb8d27136e95/a/j/ajaxaddtocartsite.jpg');
+	width: 30px;
+	height: 30px;
+	background-size: 2900%;
+	background-repeat: no-repeat;
+  }
+ 
+  .image {
+	margin-right: 50px;
+  }
+
+  .description {
+	padding-top: 10px;
+	margin-right: 20px;
+
+  }
+   
+  .description span {
+	display: block;
+	font-size: 14px;
+	color: #43484D;
+	font-weight: 400;
+  }
+   
+  .description span:first-child {
+	margin-bottom: 5px;
+  }
+  .description span:last-child {
+	font-weight: 300;
+	margin-top: 8px;
+	color: #86939E;
+  }
+  .quantity {
+	padding-top: 20px;
+	margin-right: 60px;
+  }
+  .quantity input {
+	-webkit-appearance: none;
+	border: none;
+	text-align: center;
+	width: 32px;
+	font-size: 16px;
+	color: #43484D;
+	font-weight: 300;
+  }
+   
+  button[class*=btn] {
+	width: 30px;
+	height: 30px;
+	background-color: #E1E8EE;
+	border-radius: 6px;
+	border: none;
+	cursor: pointer;
+  }
+ 
+   
+  button:focus,
+  input:focus {
+	outline:0;
+  }
+  .total-price {
+	width: 83px;
+	padding-top: 27px;
+	text-align: center;
+	font-size: 16px;
+	color: #43484D;
+	font-weight: 300;
+  }
+*/
+  /* Three image containers */
+.column {
+	
+	float: left;
+	width: 350px;
+	border: 2px solid rgb(56, 56, 56);
+	padding: 50px 100px;
+	margin: 50px 50px 50px 50px;
+  }
+  
+  /* Clear floats after image containers */
+ 
+  .row {
+	display: flex;
+  }
+  
+ 
+
+  .inline-block-child {
+	float: left;
+	width: 350px;
+	border: 2px solid rgb(13, 14, 13);
+	padding: 50px 100px;
+	margin: 50px 50px 50px 50px;
+  }
+	
+
+  .parent
+  {
+	  display:flex;
+  }
+ 
+  
