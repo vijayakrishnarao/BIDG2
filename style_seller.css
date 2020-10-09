@@ -118,7 +118,7 @@ header div a{
 	color:#ffffff;
 
 }
-.threelines div{
+.threelines span div{
 	color: #ffffff;
 
 }
@@ -315,6 +315,9 @@ footer{
 .container {
     height: 25%;
     display: flex;
-   justify-content: center;
+    justify-content: center;
     align-items: center;
+}
+.btn{
+    padding-top: 40%;
 }
