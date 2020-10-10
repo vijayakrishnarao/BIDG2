@@ -1,0 +1,92 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Security - BigBid</title>
+    <style>
+        h1 {
+            font-weight: 400;
+        }
+
+        .inputtag {
+            width: 62%;
+        }
+
+        #submitbutton {
+            color: black;
+            font-weight: 500;
+        }
+
+        label {
+            font-weight: 650;
+            font-size: small;
+        }
+
+        p {
+            font-weight: 650;
+            font-size: small;
+        }
+
+        form {
+            border: 2px solid gray;
+            max-width: 400px;
+            border-radius: 5%;
+        }
+
+        .termsp {
+            margin-left: -5%;
+            font-size: small;
+            font-weight: 650;
+        }
+        #editemaillabel {
+            margin-left: -52%;
+        }
+        #editmobilelabel {
+            margin-left: -50%;
+        }
+        #currentpasswordlabel {
+            margin-left: -55%;
+        }
+        #newpasswordlabel {
+            margin-left: -60%;
+        }
+        #renewpasswordlabel {
+            margin-left: -46%;
+        }
+        .required:after {
+            content:" *";
+            color: red;
+        }
+        #currentpassword {
+            margin-left: -20%;
+        }
+        #newpassword {
+            margin-left: -20%;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <img alt="Logo"
+            src="http://4.bp.blogspot.com/-v1WcEMzOgmM/TkrI_mbhqwI/AAAAAAAABhM/KhAKm6Y-Jjk/s1600/Judge%2527s+Gavel+Puzzle.jpg"
+            width="150" height="150">
+        <form>
+            <h1>Edit Details</h1><br />
+            <label for="editemail" id="editemaillabel">Your E-mail Address</label><br/>
+            <input type="email" name="editemail" id="editemail" class="inputtag"/><button type="submit" id="submitbutton" class="btn btn-light">Change</button><br />
+            <label for="editmobile" id="editmobilelabel">Your Mobile Number</label><br/>
+            <input type="number" name="editmobile" id="editmobile" class="inputtag"/><button type="submit" id="submitbutton" class="btn btn-light">Change</button><br />
+            <label for="currentpassword" id="currentpasswordlabel" >Current Password</label><br/>
+            <input type="password" name="currentpassword" id="currentpassword" class="inputtag"/><br/>
+            <label for="newpassword" id="newpasswordlabel">New Password</label><br/>
+            <input type="password" name="newpassword" id="newpassword" class="inputtag"/><br/>
+            <label for="renewpassword" id="renewpasswordlabel">Re-Enter New Password</label><br/>
+            <input type="password" name="renewpassword" id="renewpassword" class="inputtag"/><button type="submit" id="submitbutton" class="btn btn-light">Change</button><br /><br />
+            <p>This here if we wanna add something.</p>
+            <pre>&nbsp;</pre>
+        </form>
+    </center>
+</body>
+
+</html>

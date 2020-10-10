@@ -1,0 +1,83 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Security - BigBid</title>
+    <style>
+        h1 {
+            font-weight: 400;
+        }
+
+        .inputtag {
+            width: 62%;
+        }
+
+        #submitbutton {
+            color: black;
+            font-weight: 500;
+        }
+
+        label {
+            font-weight: 650;
+            font-size: small;
+        }
+
+        p {
+            font-weight: 650;
+            font-size: small;
+        }
+
+        form {
+            border: 2px solid gray;
+            max-width: 400px;
+            border-radius: 5%;
+        }
+
+        .termsp {
+            margin-left: -5%;
+            font-size: small;
+            font-weight: 650;
+        }
+        #editnamelabel {
+            margin-left: -65%;
+        }
+        #editdesclabel {
+            margin-left: -42%;
+        }
+        #currentpasswordlabel {
+            margin-left: -55%;
+        }
+        .required:after {
+            content:" *";
+            color: red;
+        }
+        #currentpassword {
+            margin-left: -20%;
+        }
+        #editdesc {
+            height: 70px;
+            font-size: small;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <img alt="Logo"
+            src="http://4.bp.blogspot.com/-v1WcEMzOgmM/TkrI_mbhqwI/AAAAAAAABhM/KhAKm6Y-Jjk/s1600/Judge%2527s+Gavel+Puzzle.jpg"
+            width="150" height="150">
+        <form>
+            <h1>Personal Description</h1><br />
+            <label for="editname" id="editnamelabel">Your Name</label><br/>
+            <input type="text" name="editename" id="editname" class="inputtag"/><button type="submit" id="submitbutton" class="btn btn-light">Change</button><br />
+            <label for="editdesc" id="editdesclabel">Your Personal Description</label><br/>
+            <input type="desc" name="editdesc" id="editdesc" class="inputtag"/><button type="submit" id="submitbutton" class="btn btn-light">Change</button><br />
+            <label for="currentpassword" id="currentpasswordlabel" >Current Password</label><br/>
+            <input type="password" name="currentpassword" id="currentpassword" class="inputtag"/><br/><br />
+            <p>This here if we wanna add something.</p>
+            <pre>&nbsp;</pre>
+        </form>
+    </center>
+</body>
+
+</html>
